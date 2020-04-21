@@ -45,7 +45,8 @@ function Main()
         "sql2014-sqldom",
         "sql2016-dacframework",
         "sql2016-clrtypes",
-        "sql2016-smo"
+        "sql2016-smo",
+        "sql2016-clrtypes"
         )
 
     foreach($Package in $Packages)

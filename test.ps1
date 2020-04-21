@@ -37,6 +37,10 @@ function Test-CLRTypes()
     $PackageName = "sql2016-clrtypes"
     Install-ChocoPackage -PackageName $PackageName -PackageSourceDirectory (Get-Item -Path ".\" -Verbose).FullName
     UnInstall-ChocoPackage -PackageName $PackageName
+
+    $PackageName = "sql2019-clrtypes"
+    Install-ChocoPackage -PackageName $PackageName -PackageSourceDirectory (Get-Item -Path ".\" -Verbose).FullName
+    UnInstall-ChocoPackage -PackageName $PackageName
 }
 
 

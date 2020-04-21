@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>sql2019-clrtypes</id>
+    <version>15.0.2000.5</version>
+    <title>Microsoft System CLR Types for SQL Server 2019</title>
+    <authors>Microsoft</authors>
+    <owners>pieter.lazzaro, john.bowker</owners>
+    <licenseUrl>https://www.microsoft.com/en-us/download/details.aspx?id=100451</licenseUrl>
+    <projectUrl>https://www.microsoft.com/en-us/download/details.aspx?id=100451</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The SQL Server System CLR Types package contains the components implementing the new geometry, geography, and hierarchyid types in SQL Server 2016. This component can be installed separately from the server to allow client applications to use these types outside of the server.</description>
+    <summary>The SQL Server 2019 System CLR Types package.</summary>
+    <tags>SQL2019 admin CLR</tags>
+    <packageSourceUrl>https://github.com/johnbowker/choco-mssql-deployment</packageSourceUrl>
+  </metadata>
+</package>
