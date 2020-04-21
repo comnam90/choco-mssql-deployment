@@ -4,8 +4,8 @@ $ErrorActionPreference = 'Stop';
 
 $packageName= 'sql2016-clrtypes'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'http://download.microsoft.com/download/E/4/1/E41A6614-9FB0-4675-8A97-08F8B1A1827D/EN/SQL13/x86/SQLSysClrTypes.msi'
-$url64      = 'http://download.microsoft.com/download/E/4/1/E41A6614-9FB0-4675-8A97-08F8B1A1827D/EN/SQL13/amd64/SQLSysClrTypes.msi'
+$url        = 'https://download.microsoft.com/download/8/7/2/872BCECA-C849-4B40-8EBE-21D48CDF1456/ENU/x86/SQLSysClrTypes.msi'
+$url64      = 'https://download.microsoft.com/download/8/7/2/872BCECA-C849-4B40-8EBE-21D48CDF1456/ENU/x64/SQLSysClrTypes.msi'
 
 $packageArgs = @{
   packageName   = $packageName
